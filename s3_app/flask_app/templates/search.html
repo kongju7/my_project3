@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='mysearch.css') }}">
+    <title>상품 리뷰 감성 분석</title>
+</head>
+<body>
+    <form method="POST" action="/result">
+        <div class="search__container">
+            <p class="search__title">
+            고객님의 상품 리뷰를 작성해 주십시오. 
+            </p>
+        <input class="search__input" type="text" placeholder="입력" name="review">
+        </div>
+    </form>
+        <div class="credits__container">
+            <p class="credits__text">
+                {% if result == None %}
+                <h5>Waiting..</h5>
+                {% else %}
+                <h5> {{ result }} </h5>
+                {% endif %}
+            </p>
+        </div>
+</body>
+</html>
