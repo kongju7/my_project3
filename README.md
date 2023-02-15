@@ -52,6 +52,8 @@
     
 5. 대시보드 작성: Metabase 활용 (MySQL DB 연동)
   
+<img src = "https://raw.githubusercontent.com/kongju7/my_project3/main/ai_15_%EA%B3%B5%EC%A3%BC_s3_dashboard.png" width="50%" height="50%">
+  
 6. 배포 및 향후 계획 
     - Heroku를 통한 배포 시도 → 실패 
       - 딥러닝 라이브러리 용량(500M+) 문제로 실패 
