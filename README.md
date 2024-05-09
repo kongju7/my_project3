@@ -1,9 +1,5 @@
 
-# DS/AI 부트캠프 - 개인 프로젝트 개요 
-(최신순)
-
-
-## [세 번째 프로젝트]: 네이버 쇼핑 리뷰 자연어 처리(NLP) 데이터 파이프라인 구축 
+## [3rd 프로젝트]: 네이버 쇼핑 리뷰 자연어 처리(NLP) 데이터 파이프라인 구축 
 - 작성: 2022년 11월 3일   
 - 데이터 분석 코드 파일: [ai_15_공주_s3_code.ipynb](https://github.com/kongju7/my_project3/blob/main/ai_15_%EA%B3%B5%EC%A3%BC_s3_code.ipynb)
 - 웹 애플리케이션 파일: [s3_app 폴더](https://github.com/kongju7/my_project3/tree/main/s3_app)
